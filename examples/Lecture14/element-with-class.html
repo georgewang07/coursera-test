@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="utf-8">
+    <title>Element with Class Selector</title>
+    <style>
+        /* all with class="hightlight" */
+        .highlight {
+            background-color: green;
+        }
+        
+        /* all p elements with class="highlight" */
+        p.highlight {
+            font-style: italic;
+        }
+
+        /* all elements with class 'highlight' as well as with class 'mainpoint'. */
+        .highlight.mainpoint {
+            color: red;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="highlight">Element with Class Selector</h1>
+    <p>
+        There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really.CSS allows complete and total control over the style of a hypertext document. The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike have contributed to the beauty of the web; we can always push it further.
+    </p>
+    <p class="highlight">
+        This is P with CLASS="highlight"
+    </p>
+    <div class="highlight mainpoint">
+        This is the main point of the entire article.
+    </div>
+</body>
+</html>

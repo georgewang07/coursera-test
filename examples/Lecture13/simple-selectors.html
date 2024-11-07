@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="utf-8">
+    <title>Simple Selectors</title>
+    <style>
+        /* all h2 elements */
+        h2 {
+            color: red;
+            text-align: center;
+        }
+
+        /* all with class="highlight" */
+        .highlight {
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            background-color: green;
+            opacity: .6;
+        }
+
+        /* all elements with id="mainPoint" */
+        #mainPoint {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: red;
+            opacity: .7;
+        }
+
+        /* all p AND h1 elements */
+        p, h1 {
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Selectors (h1)</h1>
+    <h2>Subheading1 (h2)</h2>
+    <p class="highlight">
+        Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers. We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WaSP, and the major browser creators.
+    </p>
+    <p class="highlight">
+        The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity. Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.
+    </p>
+    <h2>Subheading2 (h2)</h2>
+    <p>
+        There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really.
+    </p>
+    <div>
+        This is the main point of the entire article. So, attribute <span id="mainPoint">id="mainPoint"</span>.
+    </div>
+</body>
+</html>
