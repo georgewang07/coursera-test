@@ -7,38 +7,41 @@
     <title>Module2_Notes</title>
 </head>
 <body>
-    <h1>Resources about HTML</h1>
-    <ol type="a">
-        <li>www.w3.org/TR/html: let you check anything about HTML</li>
-        <li>caniuse.com: let you know the compatibility of the browsers</li>
-        <li>http://validator.w3.org/#validate_by_URI: used to validate your website</li>
-    </ol>
+    <h1>Lecture12: Anatomy of a CCS Rule:</h1>
+    <ul>
+        <li>the structure of a CCS:
+            <ul>
+                <li>Selector, like h1, p</li>
+                <li>Declaration</li>
+                <li>Property-unlike Attribute of HTML /value pair</li>
+            </ul>
+        </li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture12\anatomy_of_a_CSS_Rule.png" width="200px" height="150px">
+        <li>the StyleSheet can be inclueded into head element</li>
+    </ul>
 
-    <h1>Lecture03: Anatomy of an HTML tag</h1>
+    <h1>Lecture13: Element, Class, ID, and grouping Selectors</h1>
+    <ul>
+        <li>Element Selector: just put Element before opening bracket;</li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture13\element-Selector.png" width="280px" height="200px" alt="element-Selector">
+        <li>Class Selector: place . before Class Name</li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture13\class-Selector.png" width="280" height="200px" alt="class-Selector">
+        <li>ID Selector: place # before ID Name</li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture13\id-Selector.png" width="280" height="200px" alt="id-Selector">
+        <li>grouping Selector: just put , bewtween each one</li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture13\grouping-Selectors.png" width="280" height="200px" alt="grouping-Selectors">
+    </ul>
 
-    <h1>Lecture04: Basic HTML Doc Structure:</h1>
-    <ol type="a">
-        <li>There is always a starting line that is "<!DOCTYPE html>" in HTML file to tells reads this is a HTML-format file</li>
-        <li>After a starting line, "(html)xxx(html)" is mandatory to include everything into this file, like head, title, body, .etc </li>
-        <li>"lang="EN" should be included into starting tag of "(html)"</li>
-        <li>"(title)" means the browser tag name</li>
-        <li>order: html - meta - head - title - body</li>
-        <li>(meta) tag provides info about the web page to browsers and search engines </li>
-    </ol>
-
-    <h1>Lecture05: HTML Content Models</h1>
-    <ol type="a">
-        <li>You can see the kinds of Content via the website: https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html </li>
-        <li>span element cannot include div, but the opposite works</li>
-    </ol>
-
-    <h1>Lecture08： HTML Character Entity References</h1>
-    <ul type="a">
-        <li>&lt; meaning less than </li>
-        <li>&gt; meaning greater than </li>
-        <li>&amp; meaning ampersand </li>
-        <li>&copy; representing Copyright</li>
-        <li>&nbsp; stands for Non-Breaking Space</li>
+    <h1>Lecture14: Combining Selectors</h1>
+    <ul>
+        <li>Element with Class: place . between Element Selector and Class Selector to indicate the declaration should be applied to Class of Element</li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture14\element-with-class-selector.png" width="240px" height="200px" alt="element-with-class-selector">
+        <li>Child Selector: place &gt; between Element Selectors to indicate the later one that is the direct child of the former</li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture14\child-selector.png" width="240px" height="200px" alt="child-selector">
+        <li>Child's Child Selector: Place 2 &gt;s between 3 elements, the declaration will applied to the 3rd one which is a direct child of the 2nd, which is a direct child of the 1st</li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture14\grand-child-selector.png" width="320px" height="200px" alt="grand-child-selector">
+        <li>Descendant Selectors: just place a space between Element Selectors to indicate the later one that is the any-level child of the former </li>
+        <img src="C:\Users\wangzihao\coursera-test\examples\Lecture14\descendant-selector.png" width="240px" height="200px" alt="descendant-selector">
     </ul>
 </body>
 </html>
