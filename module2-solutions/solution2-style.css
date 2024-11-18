@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* this is the base CSS */
+section {
+    width: 90%;
+    height: 150px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    position: relative;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+section > div {
+    width: 150px;
+    height: 25px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#Chicken {
+    background-color: pink;
+}
+
+#Beef {
+    background-color: #ff582a;
+}
+
+#Sushi {
+    background-color: orange;
+}
+
+section > p {
+    margin-top: 30px;
+    float: left;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-xm-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
