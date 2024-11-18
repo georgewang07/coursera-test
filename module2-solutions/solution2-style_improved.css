@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.container {
+    background-color: gray;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.container:hover {
+    cursor: grab;
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.container > div {
+    width: 150px;
+    height: 25px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    float: right;
+}
+
+#Chicken, #Sushi {
+    color: black;
+}
+
+#Chicken {
+    background-color: pink;
+}
+
+#Beef {
+    background-color: #ff582a;
+}
+
+#Sushi {
+    background-color: orange;
+}
+
+p {
+    clear: right;
+}
+
+/* For Desktop View -- 992px and above */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+/* For Tablet View -- between 768px and 991px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-xm-12 {
+        float: left;
+        width: 100%;
+    }
+}
+/* Foe Mobile View -- equal to or less than 768px */
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
