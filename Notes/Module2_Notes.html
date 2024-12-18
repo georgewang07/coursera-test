@@ -43,5 +43,39 @@
         <li>Descendant Selectors: just place a space between Element Selectors to indicate the later one that is the any-level child of the former </li>
         <img src="C:\Users\wangzihao\coursera-test\examples\Lecture14\descendant-selector.png" width="240px" height="200px" alt="descendant-selector">
     </ul>
+
+    <h1>Lecture16: Style Placement</h1>
+    <ul>
+        <li>use &lt;link rel="stylesheet" href="to be indexed css file"&gt; to apply external css style to the current html file</li>
+    </ul>
+
+    <h1>Lecture17, Part2: Conflict Resolution</h1>
+    <ul>
+        <li>Specificity ranking: Style &gt; ID &gt; Class &gt; Elements</li>
+        <li>You can place '!important' after a styel to let it pravail</li>
+    </ul>
+
+    <h1>Lecture18: Text Styling</h1>
+    <ul>
+        <li>em is a relative size, like 2em meaning 2 times of the default/adjusted text size</li>
+    </ul>
+
+    <h1>Lecture19:Box Model</h1>
+    <ul>
+        <li>from the core to the outside: content &gt; padding &gt; border &gt; margin</li>
+        <li>4 directions from 1st to 4th: up &gt; right &gt; bottom &gt; left</li>
+        <li>when box-sizing is border-box, the widthes of content, padding, border sum up to the "width", e.g. 300 = 200 (content width) + 2x30 (padding width) + 2x20(border width), which is common in many cases</li>
+        <li>if box-sizing: border-box is set, the width of the box, including padding and border, will be constrained to the specified width</li>
+        <li>content-box meaning the box width equals to content width</li>
+        <li>Margins don't define the width of the box. Just define how far other elements should be pushed away from it.</li>
+        <li>universal selector * { } style could change the default style of the elements/selectors</li>
+    </ul>
+
+    <h1>Lecture21: Positioning Elements by Floating</h1>
+    <ul>
+        <li>Floats are taken out of normal document flow</li>
+        <li>Use float to align elements and make them wrap around other content</li>
+        <li>Use clear to stop wrapping and start new content below floated elements; to resume normal document flow</li>
+    </ul>
 </body>
 </html>

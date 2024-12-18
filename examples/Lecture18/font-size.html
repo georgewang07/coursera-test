@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="UTF-8">
+    <title>Setting Font Size</title>
+    <style>
+        /* make all text in body 1.2 times of the default */
+        body {
+            font-size: 120%;
+        }
+    </style>
+</head>
+<body>
+    <div>Regular Text</div>
+    <!-- make the text of the below line 2 times of the body that has been manified 1.2x -->
+    <div style="font-size: 2em;">2em text
+        <!-- make the text of the below line 2 times of the body that has been manified 2x x 1.2x -->
+        <div style="font-size: 2em;">4em text
+            <div style="font-size: .5em;">2em again!</div>
+        </div>
+    </div>
+</body>
+</html>

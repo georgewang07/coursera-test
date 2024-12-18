@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(120, 193, 193);
+    border: 2px solid black;
+}
+
+/********** MAIN CONTENT **********/
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu-grid {
+    padding: 6px;
+}
+#chicken-menu, #beef-menu, #sushi-menu {
+    background-color: aquamarine;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+.chicken-menu:hover, .beef-menu:hover, .sushi-menu:hover {
+    box-shadow: 8px 6px 6px gray;
+}
+.menu-grid p:first-of-type { /*:first-of-type to just make 1st of p element styled */
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+h1, h3 {
+    font-weight: bold;
+}
+
+/*********** Desktop Screen more than 768px ***********/
+@media (min-width: 576px) {
+    .navbar-toggler {
+        display: none; /* not display button when desktop and tablet window */
+    }
+}
+

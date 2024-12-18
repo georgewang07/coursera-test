@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="../module3-solutions/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../module3-solutions/css/styles.css"> <!--this link must be the last one to ensure overlying styles-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3" href="#">Food, LLC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#chicken-menu">Chicken</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beef-menu">Beef</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sushi-menu">Sushi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center mt-2">Our Menu</h1>
+        <div class="row d-flex align-items-stretch">
+            <!-- d-flex to make display flex-->
+            <section class="menu-grid col-md-4 col-sm-6 col-12">
+            <!-- col-md-4 to make 33.33% width on the screen bigger than md
+             col-sm-6 to make 50% width on the window bigger than sm
+             col-12 to make 100% width on the window less than sm
+             element's parent d-flex & align-items-stretch to make display more stretch inline-->
+                <div id="chicken-menu" class="h-100">
+                    <h3 class="text-center mt-2 mb-0">Chicken</h3>
+                    <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minus, reiciendis nisi autem, eum, nam nihil temporibus vitae architecto eos sequi at sed cumque voluptas consequuntur atque natus impedit perspiciatis.lore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam, tenetur similique, culpa quae id officia eum blanditiis dignissimos inventore necessitatibus. Aliquid officiis dolore veniam doloremque corrupti, dignissimos voluptas quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui culpa quam eos quidem dignissimos sapiente sed aliquam, provident in error. Qui porro beatae odio voluptatibus aspernatur facilis ullam eligendi veritatis!</p>
+                    <p>(End of Chicken sect)ion <a href="#top" class="back-to-top">Back To Top</a></p>
+                    <!--using href="#top" could quickly back to the page top-->
+                </div>
+            </section>
+            <section class="menu-grid col-md-4 col-sm-6 col-12">
+                <div id="beef-menu" class="h-100">
+                    <h3 class="text-center mt-2 mb-0">Beef</h3>
+                    <p class="p-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nostrum dicta ea nihil velit similique tempora blanditiis quod tempore deleniti, excepturi, accusamus ratione delectus perferendis sequi eum hic sint cum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sapiente necessitatibus corrupti quod distinctio eveniet, ipsa dignissimos nobis velit blanditiis, tenetur id possimus delectus exercitationem corporis itaque maxime quos dolores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate aut quidem ducimus aliquam id, unde ex alias odio corporis in nobis, itaque magnam? Ducimus, deserunt maxime. Accusantium eos quis sapiente?</p>
+                    <p>(End of Beef section) <a href="#top" class="back-to-top">Back To Top</a></p>
+                </div>
+            </section>
+            <section class="menu-grid col-md-4 col-sm-12 col-12">
+                <div id="sushi-menu" class="h-100">
+                    <h3 class="text-center mt-2 mb-0">Sushi</h3>
+                    <p class="p-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nostrum dicta ea nihil velit similique tempora blanditiis quod tempore deleniti, excepturi, accusamus ratione delectus perferendis sequi eum hic sint cum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sapiente necessitatibus corrupti quod distinctio eveniet, ipsa dignissimos nobis velit blanditiis, tenetur id possimus delectus exercitationem corporis itaque maxime quos dolores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dolorem, at quae eos accusamus nesciunt illum! Excepturi officia, ullam eveniet voluptatem laborum atque tempore! Alias voluptatem modi labore repellendus? Id.</p>
+                    <p>(End of Sushi sectio)n <a href="#top" class="back-to-top">Back To Top</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="../module3-solutions/js/bootstrap.bundle.min.js"></script>
+    <!-- there should be src property for script not href -->
+</body>
+</html>
